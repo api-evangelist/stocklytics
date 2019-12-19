@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Stocklytics Company Data API",
+        "description": "The Company Data API allows you to retrieve company information about a particular stock\/ticker code.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpapi.stocklytics.com"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
