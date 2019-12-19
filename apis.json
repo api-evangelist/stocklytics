@@ -1,0 +1,91 @@
+{
+    "name": "Stocklytics",
+    "description": "<p>Build feature rich, fast applications and websites based around accurate stock market data. Launch in hours rather than days using the Stocklytics API. The Stocklytics API is a powerful, low-cost RESTful API allowing you to create stock\/ financial based apps and websites with data from our service. Such as historical stock price data that can be used for creating stock charts and determining trends. We also offer a company financial data API which allows your to get company information for a particular Stock Code.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/stocklytics-logo.png",
+    "tags": [
+        "financial",
+        "financial news api",
+        "general data",
+        "have api",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/stocklytics\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Stocklytics Company Data API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/stocklytics-logo.png",
+            "humanURL": "http:\/\/stocklytics.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/stocklytics-company-data-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Stocklytics Historical Stock Prices API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/stocklytics-logo.png",
+            "humanURL": "http:\/\/stocklytics.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/stocklytics-historical-stock-prices-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Stocklytics Intraday Historical Stock Prices API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/stocklytics-logo.png",
+            "humanURL": "http:\/\/stocklytics.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/stocklytics-intraday-historical-stock-prices-api-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/api.stocklytics.com"
+        },
+        {
+            "type": "Buttons",
+            "url": "http:\/\/developer.stocklytics.com\/stocklytics-button\/"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developer.stocklytics.com\/"
+        },
+        {
+            "type": "Key Manager",
+            "url": "http:\/\/developer.stocklytics.com\/keys\/"
+        },
+        {
+            "type": "Registration",
+            "url": "http:\/\/developer.stocklytics.com\/signup\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/stocklytics.com"
+        },
+        {
+            "type": "Widgets",
+            "url": "http:\/\/developer.stocklytics.com\/stock-price\/"
+        }
+    ]
+}
